@@ -1,0 +1,79 @@
+.review{
+   margin: 40px;
+}
+.sectionTitle{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.cardC{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column-reverse;
+}
+
+.imgReviewer{
+   width: 100%;
+   max-width: 220px;
+}
+
+.cardReview{
+   padding: 40px;
+   background-color: var(--first-color);
+   box-shadow: 0 16px 40px rgb(154, 170, 207, 0.20);
+   border-radius: 5px;
+   border: 1px solid var(--secondary-color);
+   font-size: 15px;
+   font-weight: 300;
+   width: 100%;
+   max-width: 360px;
+}
+
+.reviewChanger {
+   display: flex;
+   max-width: 700px;
+   width: 100%;
+   border-bottom: 1px solid #655E5E;
+   margin: 35px auto;
+   justify-content: space-around;
+   padding: 10px;
+}
+
+.reviewChanger p {
+   cursor: pointer;
+   font-size: 13px;
+   transition: .3s ease all;
+}
+
+.reviewChanger p:hover{
+   color: var(--secondary-color);
+}
+
+@media only screen and (min-width: 670px) {
+   .sectionTitle{
+      font-size: 60px;
+   }
+   .cardC{
+      flex-direction: row;
+   }
+
+   .cardC .cardReview{
+      margin-right: 90px;
+   }
+
+   .imgReviewer{
+      width: 100%;
+      max-width: 300px;
+   }
+
+   .reviewChanger p{
+      font-size: 20px;
+   }
+
+   .cardReview{
+      font-size: 20px;
+   }
+}

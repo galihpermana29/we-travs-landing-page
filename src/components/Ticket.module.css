@@ -1,0 +1,60 @@
+.ticketForm {
+	width: 100%;
+	max-width: 841px;
+	background-color: var(--first-color);
+	margin: 0 auto;
+	height: 124px;
+	position: relative;
+	bottom: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	display: none;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.09);
+}
+
+.formCard {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 5px;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+}
+
+.header svg {
+	margin-right: 5px;
+}
+
+.section select {
+	text-transform: uppercase;
+}
+
+.button {
+	border: 1px solid var(--secondary-color);
+	font-weight: light;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	width: 100%;
+	max-width: 164px;
+	font-size: var(--button-font);
+	border-radius: var(--button-border);
+	color: var(--secondary-color);
+	display: block;
+	transition: 0.3s ease all;
+}
+.button:hover {
+	background-color: var(--secondary-color);
+   color: white;
+}
+
+@media only screen and (min-width: 670px) {
+	.ticketForm {
+		display: flex;
+	}
+}
