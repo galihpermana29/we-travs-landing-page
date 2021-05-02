@@ -30,7 +30,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className={styles.copyRight}>Copyright all reserved</div>
+			<div className={styles.copyRight}>Copyright all reserved by Galih Permana</div>
 		</>
 	);
 };

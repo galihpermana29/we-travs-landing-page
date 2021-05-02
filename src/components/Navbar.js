@@ -6,10 +6,10 @@ const Navbar = () => {
 		<div className={styles.navbarWrapper}>
 			<h1 className={styles.logo}>We Travs</h1>
 			<div className={styles.links}>
-				<a href="#">Home</a>
-				<a href="#">Services</a>
-				<a href="#">Pricing</a>
-				<a href="#">Reviews</a>
+				<a href="/#home">Home</a>
+				<a href="/#services">Services</a>
+				<a href="/#prices">Pricing</a>
+				<a href="/#reviews">Reviews</a>
 			</div>
 			<a href="#" className={styles.button}>
 				Book Now
